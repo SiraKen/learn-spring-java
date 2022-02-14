@@ -1,5 +1,11 @@
 # Learn Spring Framework
 
+## Start
+
+`./mvnw spring-boot:run`
+
+## Init
+
 [Spring Initializr](https://start.spring.io/)
 
 - Project

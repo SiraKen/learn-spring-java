@@ -19,4 +19,9 @@ public class DemoApplication {
 		return String.format("Hello %s!", name);
 	}
 
+	@GetMapping("/greet")
+	public String greet(@RequestParam(value = "name", defaultValue = "Man") String name) {
+		return String.format("Good morning %s!", name);
+	}
+
 }
